@@ -4,9 +4,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 Bot = Client(
     "Channel Auto Post Bot",
-    bot_token=BOT_TOKEN,
-    api_id=API_ID,
-    api_hash=API_HASH
+    bot_token=8787770436:AAHas4o9-gf8XertD9PRdVexc-jLRqyCrx0,
+    api_id=31289279,
+    api_hash=886064ab99124214534416b4321de48a
 )
 
 START_TEXT = """Hello {}, \
