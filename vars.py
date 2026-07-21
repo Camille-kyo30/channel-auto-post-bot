@@ -4,7 +4,7 @@ import dotenv
 dotenv.load_dotenv()
 
 # bot informations
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8787770436:AAHas4o9-gf8XertD9PRdVexc-jLRqyCrx0")
 API_ID = int(os.environ.get("31289279"))
 API_HASH = os.environ.get("886064ab99124214534416b4321de48a")
 
