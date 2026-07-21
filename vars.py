@@ -4,13 +4,12 @@ import dotenv
 dotenv.load_dotenv()
 
 # bot informations
-BOT_TOKEN = os.environ.get("8787770436:AAHas4o9-gf8XertD9PRdVexc-jLRqyCrx0")
-API_ID = int(os.environ.get("31289279"))
-API_HASH = os.environ.get("886064ab99124214534416b4321de48a")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+API_ID = int(os.environ.get("API_ID"))
+API_HASH = os.environ.get("API_HASH")
 
 # chat details
-FROM_CHANNELS = set(int(x)
-                    for x in os.environ.get("FROM_CHANNELS", "").split())
+FROM_CHANNELS = set(int(x) for x in os.environ.get("FROM_CHANNELS", "").split())
 TO_CHATS = set(int(x) for x in os.environ.get("TO_CHATS", "").split())
 
 # filters for auto post
@@ -31,4 +30,5 @@ FILTER_GAME = bool(os.environ.get("FILTER_GAME", True))
 
 # for forwarding
 AS_FORWARD = bool(os.environ.get("AS_FORWARD", False))
-REPLY_MARKUP = bool(os.environ.get("REPLY_MARKUP", False))
+REPLY_MARKUP = bool(os.environ.get("REPLY_MARKUP", Fa
+                                   lse))
